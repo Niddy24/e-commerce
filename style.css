@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --preto: #000000;
+    --fonte-primaria: "Inter";
+    --fonte-secundaria: "Poppins";
+}
+
+/* Cabeçario */
+
+.cabeçario{
+    display: flex;
+    margin: 1vw 8vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabeçario__logo{
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.cabeçario__lista{
+    display: flex;
+    list-style-type: none
+}
+
+.cabeçario__lista__link{
+    padding: 0 1vw;
+}
+
+.cabeçario__link{
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    color: var(--preto);
+}
+
+.cabecalho__busca__icone{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__busca__icone,
+.cabeçario__menu {
+    margin: 40px;
+}
+
+.cabeçario__menu{
+    display: flex;
+}
+
+.cabeçario__busca{
+    margin: 7% 0;
+    border: transparent;
+    width: 33vh;
+    height: 2vw;
+}
+
+.cabeçario__busca::placeholder{
+    background-position: 99%;
+}
+
+.cabeçario__menu__icones{
+    margin: 7px ;
+    align-items: center;
+}
+
+.conteiner{
+    display: flex;
+}
