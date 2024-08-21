@@ -7,6 +7,7 @@ body{
 
 :root{
     --preto: #000000;
+    --Branco-Fantasma: #FAFAFA;
     --fonte-primaria: "Inter";
     --fonte-secundaria: "Poppins";
 }
@@ -46,7 +47,6 @@ body{
 
 .cabecario__busca__input{
     border: transparent;
-    height: 70%;
 }
 .cabecario__busca__input::placeholder{
     width: 100%;
@@ -58,4 +58,49 @@ body{
 
 .cabecario__icone__link{
     padding: 1vw;
+}
+
+/* bunner */
+.pagina__bunner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagina__lista__tegs{
+    display: grid;
+    margin: 1vw 7vw;
+} 
+
+.pagina__lista__link{
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    color: var(--preto);
+}
+
+.pagina__lista__link:hover{
+    text-decoration: underline;
+}
+
+.pagina__imagem__bunner{
+    margin: 0 4vw 0 1vw ;
+}
+
+.pagina__imagem__link__icone{
+    position: absolute;
+    top: 80.1%;
+    right: 60vw;
+}
+
+.pagina__imagem__link{
+    position: absolute;
+    top: 80%;
+    right: 62.7vw;
+    text-decoration: none;
+    color: var(--Branco-Fantasma);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.pagina__imagem__link:hover{
+    text-decoration: underline;
 }
